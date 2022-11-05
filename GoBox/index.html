@@ -10,13 +10,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GoBox</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            <span>Go</span>Box
+            <span class="span1">Go</span>Box
         </div>
          <!-- responsive menu -->
          <div class="menu_toggle"></div>
@@ -24,7 +25,8 @@
             <li><a href="index.html">Acceuil</a></li>
             <li><a href="#">Télécharger</a></li>
             <li><a href="#">Contacter</a></li>
-            <li class="buy_li"><a href="#">Ouvrir GoBox</a></li>
+            <li><a href="#" id="théme-btn" onclick="changetheme()"></a></li>
+            <li class="buy_li"><a href="security/login/index.php">Ouvrir GoBox</a></li>
         </ul>
     </header>
     <!-- description section -->
@@ -33,7 +35,7 @@
         <!-- div gauche -->
         <div class="left">
             <h1>
-                <span>GoBox</span>
+                <span class="span2">GoBox</span>
                
             </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate incidunt architecto amet eaque ex laboriosam voluptates dolore fuga eius eum possimus debitis tenetur reprehenderit praesentium deserunt, magni maiores. Quis, deserunt.</p>
@@ -42,7 +44,7 @@
         </div>
         <!-- div droite -->
         <div class="right">
-              <img src="GoBox (1).png" class="image_bird">
+              <img src="" class="image_bird" id="image_bird">
         </div>
     </section>
     

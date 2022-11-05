@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background-color: black;
+    background-color: #000000;
     position: relative;
     height: 100vh;
     overflow: hidden;
@@ -41,7 +41,7 @@ header {
     transition: 0.5s;
 }
 .menu li a:hover {
-    color: #fff;
+    color: #5263fa;
 }
 .buy_li {
     border: 1px solid #5263fa;
@@ -51,7 +51,7 @@ header {
     color: #5263fa;
 }
 .menu .buy_li:hover a {
-    color: #fff;
+    color: #5263fa;
 }
 .description {
     height: calc(100vh - 80px);
@@ -116,7 +116,7 @@ header {
         display: none;
     }
     .left {
-        background-color: rgba(0,0,0,0.8);
+        background-color: #000000cc;
         width: 100%;
         padding: 30PX;
     }
@@ -134,6 +134,9 @@ header {
         top: 0;
         left: 0;
     }
+    .buy_now_link2 a{
+        margin-top: 20px;
+    }
     .menu_toggle{
         z-index: 10;
         height: 50px;
@@ -150,7 +153,7 @@ header {
         transform: translateY(-10px);
         width: 28px;
         height: 5px;
-        background-color: #fff;
+        background-color: #5263fa;
         border-radius: 6px;
         box-shadow: 6px 10px #fff;
         transition: 0.5s;
@@ -165,7 +168,7 @@ header {
         transform: translateY(10px);
         width: 28px;
         height: 5px;
-        background-color: #fff;
+        background-color: #5263fa;
         border-radius: 6px;
         transition: 0.5s;
       
